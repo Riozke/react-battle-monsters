@@ -21,6 +21,29 @@ export const BattleMonsterCard = styled(Card, {
   justifyContent: centralized ? 'center' : 'auto',
 }));
 
+export const MonsterImage = styled.img(() => ({
+  borderRadius: '7px',
+  width: '283px',
+  height: '178px',
+  display: 'block',
+  marginBottom: '10px',
+}));
+
+export const SeparatorLine = styled.div({
+  backgroundColor: colors.black,
+  opacity: 0.1,
+  height: '1px',
+  marginBottom: '10px',
+});
+
+export const StatsLabel = styled(Typography)({
+  fontFamily: 'Roboto',
+  fontSize: '12px',
+  lineHeight: '18px',
+  color: colors.black,
+  marginBottom: '5px',
+});
+
 export const BattleMonsterTitle = styled(Typography)(() => ({
   fontFamily: 'Roboto',
   fontStyle: 'normal',
